@@ -1,0 +1,41 @@
+{
+  "title": "Arrows for Navigation keys",
+  "rules": [
+    {
+      "description": “Left arrow to Zoom”,
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_arrow",
+          },
+          "to": [
+            {
+              "key_code": “spacebar”
+              “modifiers”: [
+                "left_option”
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": “Right arrow to Rotate”,
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": “right_arrow",
+          },
+          "to": [
+            {
+              "key_code": “spacebar”
+              “modifiers”: [
+                "left_shift”
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
